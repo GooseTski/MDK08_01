@@ -1,0 +1,81 @@
+.text__1 {
+    
+    
+    word-spacing: 2px;
+}
+
+.text__2 {
+
+    letter-spacing: 2px;
+}
+
+
+.text__3 {
+    text-align: center;
+}
+
+
+.text__4 {
+ text-align: end;
+}
+
+
+.text__5 {
+ color: aqua;
+}
+
+
+.text__6 {
+text-transform: uppercase;
+}
+
+
+.text__7 {
+ font-family: 'Courier New', Courier, monospace;
+}
+
+
+.text__8 {
+    font-style: italic;
+}
+
+
+.text__9 {
+ font-weight: 700;
+}
+
+
+.text__10 {
+ text-indent: 30%;
+}
+
+
+
+.text__11 {
+ line-height: 10px;
+}
+
+
+
+
+
+
+.text__13 {
+    tab-size: 22px;
+}
+
+
+.text__14 {
+    direction: rtl;
+}
+
+
+.text__15 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+
+.text__16 {
+    text-decoration: line-through;
+}

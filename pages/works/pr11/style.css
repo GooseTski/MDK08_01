@@ -1,0 +1,155 @@
+header {
+    background-color: palevioletred;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    height: 100px;
+    width: 100px;
+    background: url(../../../img/6-1.jpg);
+    background-size: cover;
+}
+
+
+header h1 {
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li a {
+    display: block;
+    background: palevioletred;
+    padding: 10px;
+    margin: 30px 10px 0;
+    text-decoration: none;
+    color: black;
+
+}
+
+header ul li a:hover {
+    background-color: brown;
+}
+
+article button {
+    font-size: 18px;
+    background: #f26689;
+    border: 0;
+    padding: 19px 38px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+section article {
+    width: 320px;
+    margin: 5px;
+}
+
+section article .img_main {
+    width: 100%;
+    height: 400px;
+    background: url(../../../img/6-1.jpg);
+    background-size: cover;
+    background-position-x: -30px;
+}
+
+.category {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    color: white;
+}
+
+.sale {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.starts {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 12px;
+}
+
+.starts span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+    
+}
+
+.starts > span:before {
+    content: '★';
+}
+
+.starts > span.active {
+    color: gold;
+}
+
+
+.category1 {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    color: white;
+}
+
+.sale1 {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.category2 {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    
+    
+    color: white;
+}
+
+.sale2 {
+    background-color: rgb(241, 217, 0);
+    padding: 10px;
+}
+.pice {
+    text-transform: uppercase;
+    color: black;
+  
+}
+
+.price span {
+    background-color: yellow;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+.price {
+    margin-bottom: 9px;
+}
+
+
+
+
+.pice_delete {
+    text-decoration: line-through;
+}

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, p {
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap ;
+
+}
+
+.content {
+    width: 60%;
+    background: salmon;
+    padding: 2%;
+}
+
+aside {
+    width: 30%;
+  
+}
+
+.size_block {
+    background: salmon;
+    margin-bottom: 20px;
+    padding: 5%;
+}
+
+@media screen and (max-width:800px) {
+    .content {
+        width: 100%;
+    }
+    .aside {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .size_block {
+        width: 44%;
+        padding: 2%;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .size_block {
+        width: 96%;
+        padding: 4%;
+    }
+}

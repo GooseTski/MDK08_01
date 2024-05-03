@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+header {
+   
+    width: 100%;
+    background-color: azure;
+      
+
+}
+
+nav {
+    padding: 0 10px;
+
+
+
+}
+
+
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    
+    font-size: 16px;
+    color: #8013e6;
+    padding: 10px;
+    
+    bottom: 10px;
+    
+    transition:color .2s linear ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fce38a;
+}
+a:hover:after {
+    opacity: 1;
+}
+
+
+footer {
+    font-size: 16px;
+   
+    padding: 50px 5px;
+
+}
+
+
+footer p {
+
+   
+    padding:10px 0;
+    font-size: 14px;
+   
+}
+
+h3 {
+
+    font-size: 18px;
+    color: chocolate;
+}
+
+
+h2 {
+
+    font-size: 20px;
+    color: chocolate;
+}
+
+
+
+h1 {
+
+    font-size: 24px;
+    color: chocolate;
+  
+
+
+}
+
+
+
+h4 {
+
+    font-size: 17px;
+    color: darkgoldenrod;
+}
+
+
+
+
+aside {
+    display: block;
+    
+}
+
+aside p img {
+    height: 300px;
+    margin: 10px;
+    
+}
+
+
+main {
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+
+p {
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 4px;
+}
+
+aside p {
+    color: chocolate;
+    font-size: 22px;
+
+}
+
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    margin: 50px 0;
+    background-color: #8013e6;
+}
