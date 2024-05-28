@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrape{
+    width: 770px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 80%;
+  
+}
+.sectioon{
+    display: flex;
+    text-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    width: 80%;
+}
+.logo hr{
+    height: 2px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.design{
+    width: 200px;
+    margin-top: 30px;
+ 
+}
+.design p{
+    color: grey;
+    font-size: 16px;
+}
+.design h2{
+    font-size: 17px;
+
+}
+.design a{
+    color: gray;
+    text-decoration: none;
+}
+.News{
+    opacity: 40%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,56 @@
+button {
+
+    padding: 1rem 2rem;
+    background: #00a7cf;
+    color: #fff;
+    border: none;
+    animation-name: btn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+
+    
+   
+ 
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+@keyframes btn {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

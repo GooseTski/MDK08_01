@@ -1,0 +1,97 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+
+    width: 646px;
+}
+
+.logo {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo h2{
+    color: white;
+    margin: 0 auto;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.container {
+
+    background-color: aliceblue;
+}
+.border{
+    border-bottom: 1px solid black;
+    border-left: 10px solid green;
+}
+.border2{
+    border-bottom: 1px solid black;
+    border-left: 10px solid blue;
+}
+.border3{
+    border-bottom: 1px solid black;
+    border-left: 10px solid red;
+}
+.border4{
+    border-bottom: 1px solid black;
+    border-left: 10px solid yellow;
+}
+.border5{
+    border-bottom: 1px solid black;
+    border-left: 10px solid purple;
+}
+.border6{
+    border-bottom: 1px solid black;
+    border-left: 10px solid red;
+}
+
+.block{
+
+    margin-left: 15px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+.block p {
+    color: blue;
+    font-size: 18px;
+    margin-right: 20px;
+
+}
+
+.block2{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.block2 p{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
+.block h2::after{
+    
+    margin-left: 15px;
+    content: url(./img/83.png);
+}
+.con{
+    width: 10%;
+    border: 1px solid yellow;
+}  
+
+

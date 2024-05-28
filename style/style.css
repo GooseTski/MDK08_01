@@ -70,9 +70,10 @@ a {
    
     
     margin:  60px 120px 0px 40px;
-   
-    
-    
+}
+.section img {
+    height: 200px;
+    width: 200px;
 }
 
 
